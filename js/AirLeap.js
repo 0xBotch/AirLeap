@@ -259,7 +259,7 @@ function say(text){
   var msg = new SpeechSynthesisUtterance();
   var voices = window.speechSynthesis.getVoices();
   msg.voice = voices[10];
-  msg.voiceURI = 'native';
+  msg.voiceURI = "native";
   msg.volume = 1; // 0 to 1
   msg.rate = 0.8; // 0.1 to 10
   msg.pitch = 0; //0 to 2
